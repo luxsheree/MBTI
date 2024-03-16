@@ -1,2 +1,2 @@
 # MBTI
-personality stuff
+Personality Mindfullness Space

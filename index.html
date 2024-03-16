@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindfulness Space</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+
+<header>
+    <h1>Mindfulness Space</h1>
+</header>
+
+<main>
+    <section id="breathingExercise">
+        <h2>Guided Breathing Exercise</h2>
+        <button id="startBreathingBtn">Start Breathing Exercise</button>
+        <!-- Add more structure as needed for the breathing exercise visualization -->
+    </section>
+
+    <section id="moodTracker">
+        <h2>Mood Tracker</h2>
+        <div class="mood-options">
+            <!-- Replace with actual mood options -->
+            <div class="mood-option" data-mood="happy">😊</div>
+            <div class="mood-option" data-mood="sad">😢</div>
+            <!-- Add more moods as needed -->
+        </div>
+    </section>
+
+    <section id="soundPlayer">
+        <h2>Ambient Sounds</h2>
+        <button id="playSound">Play</button>
+        <button id="pauseSound">Pause</button>
+        <input type="range" id="volumeControl" min="0" max="100" step="1">
+        <!-- Add more controls or sound options as needed -->
+    </section>
+
+    <section id="focusTimer">
+        <h2>Focus Timer</h2>
+        <button id="startTimer">Start Timer</button>
+        <div id="timerDisplay">25:00</div>
+        <!-- Add additional timer settings as needed -->
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mindfulness Space</p>
+</footer>
+
+<script src="main.js"></script>
+<script src="breathingExercise.js"></script>
+<script src="moodTracker.js"></script>
+<script src="soundPlayer.js"></script>
+<script src="timer.js"></script>
+</body>
+</html>

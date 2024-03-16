@@ -1,0 +1,41 @@
+    .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as necessary */
+    gap: 10px; /* Spacing between the items */
+  }
+  
+  .background {
+    background-color: black; /* Replace with the specific color for the type */
+    padding: 20px;
+    color: white; /* Assuming a dark background */
+  }
+  
+  .type-header {
+    font-size: 3em; /* Large text for the type header */
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 2em; 
+  }
+  .personality-chart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as necessary */
+    gap: 10px; /* Spacing between the items */
+  }
+  
+  .personality-type {
+    background-color: pink; /* Replace with the specific color for the type */
+    padding: 20px;
+    color: white; /* Assuming a dark background */
+  }
+  
+  .type-header {
+    font-size: 3em; /* Large text for the type header */
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
