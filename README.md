@@ -1,2 +1,2 @@
 # Mindfulness
-Personality Mindfullness Space
+Mindfullness Space
